@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<!-- Page Head: Contains information for the web browser to read -->
+<head>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <meta charset="UTF-8">
+  <!-- Title: Max 50-60 character including spaces -->
+  <title>Josephs Tech World | Official Site</title>
+  <meta name="keywords" content="linux, open source, streamer, twitch, commander candy, linux streamer, open source streamer, twitch linux streamer">
+  <!-- Page Descrition: Recommended length is 50–160 chearacter -->
+  <meta name="description" content="Joseph Streams Games and other things!">
+  <!-- CSS Links -->
+  <!-- Our CSS File --><link rel='stylesheet' type='text/css' href='style.css'>
+  <!-- Fontawesome Librbary --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Google Font Link-->  <link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+</head>
+  <!-- Page Body: Contains information to display to site users and JavaScript -->
+  <body>
+    <!-- Row 1 -->
+    <div class="row">
+      <div id="menu" class="col-3">
+        <!-- Side Navigation Container -->
+        <div class="sidenav" id="sidenav">
+          <!-- Side Navigation Heading -->
+          <h3>Menu</h3>
+          <!-- Side Navigation Links -->
+          <a href="index.html">Home</a>
+          <a href="https://www.twitch.tv/josephstechworld" target="blank">Twitch Channel</a>
+          <a href="about.html">About Me</a>
+          <a href="https://www.designbyhumans.com/shop/JosephsTechWorld/" target="blank">Merch Shop</a>
+        </div>
+        <!-- Image Link Under the Sidebar (Desktop Only) -->
+        <div class="side-images" align="center">
+          <a href="https://streamlabs.com/josephstechworld/tip" target="blank"><img src="media/twitch-donations.gif" alt="" /></a>
+        </div>
+        <!-- Picture of mein the sidebar (Desktop Only) -->
+        <div class="for-me" align="center">
+            <img class="me" src="media/joseph-small.png" alt="me"/>
+            <i>I Play Video Games, Code and Chat with my community</i>
+          </div>
+      </div>
+      <!-- Main Content Area-->
+      <div id="main-content" class="col-9">
+        <!-- Header Container -->
+          <div class="row header">
+            <div class="col-5">
+              <!-- Mobile Hamberger Menu Icon (Mobile Only) -->
+              <button onclick="mobileMenu" id="menu-link" class="mobile-menu"><i class="fas fa-bars"></i></button>
+              <!-- Mobile Menu Container -->
+              <div id="menu-display"></div>
+              <!-- Top Logo -->
+              <img class="logo" src="media/Joseph2.png" alt="Josephs Tech World Twitch Channel"/>
+            </div>
+            <div class="col-5">
+              <!-- Main Page Heading -->
+              <h1>Josephs Tech World </h1>
+            </div>
+           </div>
+           <!-- Social Links Container -->
+           <div class="row social" align="center">
+              <a target = 'blank' href = 'https://www.twitch.tv/josephstechworld'><i class="fab fa-twitch"></i></a>
+              <a target = 'blank' href = 'https://www.youtube.com/channel/UCculIoE8pk-HkGdLttf3H-w'><i class="fab fa-youtube"></i></a>
+              <a target = 'blank' href='https://twitter.com/josephstech' ><i class="fab fa-twitter"></i></a>
+              <a target = 'blank' href='https://www.instagram.com/josephstechworld'><i class='fab fa-instagram'></i></a>
+              <a href="https://discord.gg/3kVEyzeX8T" target="blank"><i class="fab fa-discord"></i></a>
+            </div>
+            <!-- Section Heading-->
+        <!--    <h2>Stream Schedule</h2>
+            <div class="row" align="center">
+              <div class="col-6">
+                <div class="schedule">
+                  <p>
+                    Tuesdays <br>
+                    12:00 - 4:00 PM EST <br>
+                     17:00 - 21:00 UTC
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                  <div class="schedule">
+                    <p>
+                      Thursdays<br>
+                       12:00 - 4:00 PM EST <br>
+                       17:00 - 21:00 UTC 
+                    </p>
+                  </div>
+              </div>
+            </div>  -->
+            <!-- About Me-->
+            <div class="row" align="center">
+              <h2>About Me</h2>
+              <p>I stream computer programming, Gaming, Chatting and more!</p>
+              <p><a href="about.html">Read More!</a></p>
+              <img src="media/joseph-small.png" alt="xxs Joseph"/>
+            </div>
+            <!-- Twitch Channel Embedded-->
+            <div class="row" align="center">
+              <h2>My Twitch Channel</h2>
+              <!-- Add a placeholder for the Twitch embed -->
+               <div id="twitch-embed"></div>
+
+               <!-- Load the Twitch embed script -->
+               <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+               <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+               <script type="text/javascript">
+                 new Twitch.Embed("twitch-embed", {
+                   width: "100%",
+                   height: 480,
+                   channel: "josephstechworld",
+                   autoplay: false,
+                   muted: true
+                 });
+               </script>
+               <!-- More Embed Options: https://dev.twitch.tv/docs/embed/ -->
+
+               <!-- Fellow Stream Team Streamers-->
+               <h2>My Stream Team</h2>
+               <p>Check out my streamer friends</p>
+               <div class="row" align="center">
+                 <!-- Chaotic-->
+                 <div class="col-4">
+                   <div class="schedule">
+                     <a href="https://www.twitch.tv/chaotickiller_" target="blank">
+                       <img src="media/chaotic-logo.png" alt="Chaotic Logo"/>
+                     </a>
+                   </div>
+                 </div>
+                 <!-- Viper-->
+                 <div class="col-4">
+                   <div class="schedule">
+                     <a href="https://www.twitch.tv/vipergaming77_" target="blank">
+                       <img src="media/viper-logo.png" alt="viper logo"/>
+                     </a>
+                   </div>
+                 </div>
+                 <!-- Joo Joo-->
+                 <div class="col-4">
+                   <div class="schedule">
+                     <a href="https://www.twitch.tv/josephstechworld" target="blank">
+                       <img src="media/joseph-logo.png" alt="Joseph logo"/>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+            </div>
+            <!-- Footer with copyright-->
+            <footer>
+          <p>(C) 2021 All rights reserved Joseph's Tech World</p>
+            </footer>
+        </div>
+      </div>
+      <!-- Link JavaScript -->
+      <script language="JavaScript" src="main.js"></script>
+      <!-- Insert Google Analytics Font Here-->
+  </body>
+</html>
