@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://josephstechworld.tk/sitemap.xml
