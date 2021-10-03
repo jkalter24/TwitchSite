@@ -4,7 +4,7 @@ function mobileMenu() {
     var node = document.getElementById("sidenav");
     // put the side menu inside the mobile menu container
     document.getElementById("menu-display").appendChild(node);
-    // Call Toggle Funtion
+    // Call Toggle Function
     toggle();
   }
 
@@ -22,5 +22,5 @@ function mobileMenu() {
     }
   }
 
-  // Event Listener for clicking on mobile menu (hamberger menu) icon
+  // Event Listener for clicking on mobile menu (Hamburger menu) icon
   document.getElementById("menu-link").addEventListener("click", mobileMenu);
