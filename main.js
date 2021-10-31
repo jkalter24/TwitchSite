@@ -12,7 +12,7 @@ function mobileMenu() {
   function toggle() {
     // Container holding mobile menu
     var x = document.getElementById("menu-display");
-    // If menu is visable, make it go away
+    // If menu is visible, make it go away
     if (x.style.display === "block") {
       x.style.display = "none";
     }
