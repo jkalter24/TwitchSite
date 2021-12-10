@@ -289,9 +289,10 @@
                 .green {
                   color: green;
                 }
-/*snow */
+/*snow 
 <style>
 /* customizable snowflake styling */
+/*
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -338,4 +339,4 @@
   <div class="snowflake">
     ❆
   </div>
-</div>
+</div> /*
